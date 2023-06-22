@@ -30,8 +30,8 @@ export default function App(){
     return(
         <div className='App'>
             <h1>Hello {name}</h1>
-            <MyButton counter={counter} onClick={handleClick}/>
-            <MyButton counter={counter} onClick={handleClick}/>
+            <MyButton counter1={counter} onClick={handleClick}/>
+            <MyButton counter1={counter} onClick={handleClick}/>
             <ol>{listItems}</ol>
         </div>
     );
